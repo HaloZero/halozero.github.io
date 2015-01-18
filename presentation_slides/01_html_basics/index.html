@@ -44,11 +44,11 @@
           // Optional libraries used to extend on reveal.js
           dependencies: [
               { src: '/reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-              { src: '/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-              { src: '/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-              { src: '/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-              { src: '/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-              { src: '/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+              { src: '/reveal/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+              { src: '/reveal/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+              { src: '/reveal/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+              { src: '/reveal/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+              { src: '/reveal/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
           ]
       });
     </script>
