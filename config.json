@@ -4,6 +4,6 @@
     "css": "/reveal/css",
     "js": "/reveal/js",
     "lib": "/reveal/lib",
-    "plugins": "/reveal/plugin"
+    "plugin": "/reveal/plugin"
   }
 }
