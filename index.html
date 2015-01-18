@@ -1,8 +1,52 @@
-<html>
+!!!
+%html{:lang => "en"}
+  - css_directory = config['directories']['css']
+  - lib_directory = config['directories']['lib']
+  - js_directory = config['directories']['js']
+  - plugin_directory = config['directories']['plugin']
+  %head
+    %meta{:content => "text/html; charset=ISO-8859-1", "http-equiv" => "Content-Type"}/
+    %title FEWD Fall 2013 - Lesson 1 - HTML Basics
+    %meta{:content => "FEWD Course Slides", :name => "description"}/
+    %meta{:content => "General Assembly", :name => "author"}/
+    %meta{:content => "yes", :name => "apple-mobile-web-app-capable"}/
+    %meta{:content => "black-translucent", :name => "apple-mobile-web-app-status-bar-style"}/
+    %meta{:content => "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no", :name => "viewport"}/
+    %link{:href => "#{css_directory}/reveal.min.css", :rel => "stylesheet"}/
+    %link#theme{:href => "#{css_directory}/theme/default.css", :rel => "stylesheet"}/
+    / For syntax highlighting
+    %link{:href => "#{lib_directory}/css/zenburn.css", :rel => "stylesheet"}/
+    / If the query includes 'print-pdf', use the PDF print sheet
+    :javascript
+      document.write( '<link rel="stylesheet" href="#{css_directory}/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+    /[if lt IE 9]
+      <script src="#{js_directory}/html5shiv.js"></script>
+  %body
+    .reveal
+      / Any section element inside of this container is displayed as a slide
+      .slides
+        %section{"data-charset" => "iso-8859-15", "data-markdown" => "slides.md", "data-notes" => "^Note:", "data-separator" => "---", "data-vertical" => "--"}
+    %script{:src => "#{lib_directory}/js/head.min.js"}
+    %script{:src => "#{js_directory}/reveal.min.js"}
+    :javascript
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+          controls: true,
+          progress: true,
+          history: true,
+          center: true,
 
-<body>
-<a href="/01_html_basics/">Day 01</a>
+          theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+          transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
 
-</body>
-
-</html>
+          // Optional libraries used to extend on reveal.js
+          dependencies: [
+              { src: '#{lib_directory}/js/classList.js', condition: function() { return !document.body.classList; } },
+              { src: '#{plugin_directory}/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+              { src: '#{plugin_directory}/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+              { src: '#{plugin_directory}/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+              { src: '#{plugin_directory}/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+              { src: '#{plugin_directory}/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+          ]
+      });
