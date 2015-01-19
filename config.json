@@ -1,6 +1,6 @@
 {
   "directories" : {
-    "images": "/reveal/images",
+    "images": "/reveal/img",
     "css": "/reveal/css",
     "js": "/reveal/js",
     "lib": "/reveal/lib",

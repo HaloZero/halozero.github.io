@@ -1,4 +1,4 @@
-![GeneralAssemb.ly](../../img/icons/FEWD_Logo.png)
+![GeneralAssemb.ly](/reveal/img/icons/FEWD_Logo.png)
 
 #FEWD - HTML BASICS
 
@@ -59,7 +59,7 @@ Server-Side
 ---
 
 
-![GeneralAssemb.ly](../../img/icons/code_along.png)
+![GeneralAssemb.ly](/reveal/img/icons/code_along.png)
 ##General Assembly Press Release
 
 ---
@@ -80,7 +80,7 @@ The Doctype tells you if the page is HTML5 ready.
 
 ##HTML HISTORY
 
-![HTML History](../../img/unit_1/Timeline_of_web_technologies.jpg)
+![HTML History](/reveal/img/unit_1/Timeline_of_web_technologies.jpg)
 
 Note:
 image retrieved from http://www.onbile.com/info/wp-content/uploads/2013/09/Timeline-of-web-technologies-639x168.jpg on October 1, 2013.
@@ -90,13 +90,13 @@ image retrieved from http://www.onbile.com/info/wp-content/uploads/2013/09/Timel
 
 ##HTML Syntax
 
-![HTML Syntax](../../img/unit_1/tags.png)
+![HTML Syntax](/reveal/img/unit_1/tags.png)
 
 ---
 
 ##HTML Syntax
 
-![HTML Syntax](../../img/unit_1/tags_attributes.png)
+![HTML Syntax](/reveal/img/unit_1/tags_attributes.png)
 
 ---
 
@@ -154,7 +154,7 @@ links 
 --
 
 
-![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
+![GeneralAssemb.ly](/reveal/img/icons/exercise_icon_md.png)
 ##Cookie Recipe
 
 ---
