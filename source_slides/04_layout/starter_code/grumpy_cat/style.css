@@ -1,0 +1,26 @@
+img {
+  width: 200px;
+  height: 300px;
+}
+
+.left {
+  float: left;
+}
+
+.container {
+  width: 700px;
+  font-size: 2em;
+  border: 10px solid black;
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/*img:nth-child(2) {
+  clear:left;
+}*/
