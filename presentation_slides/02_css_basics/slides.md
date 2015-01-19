@@ -1,4 +1,4 @@
-![GeneralAssemb.ly](../../img/icons/FEWD_Logo.png)
+![GeneralAssemb.ly](/reveal/img/icons/FEWD_Logo.png)
 
 #FEWD - CSS Basics
 
@@ -18,7 +18,7 @@ Let's make it beautiful
 
 ---
 
-![GeneralAssemb.ly](../../img/icons/Exercise_icon_md.png)
+![GeneralAssemb.ly](/reveal/img/icons/Exercise_icon_md.png)
 ##About page
 
 ---
@@ -45,7 +45,7 @@ The `img` tag requires a `src` attribute, which tells the browser where to find 
 
 How would you write the src?
 
-![](../../img/unit_1/folder_structure.png)
+![](/reveal/img/unit_1/folder_structure.png)
 
 *	There are different approaches to specifying an image location
 
@@ -62,7 +62,7 @@ How would you write the src?
 ##Images
 Relative Path
 
-![Parent Folder Structure](../../img/unit_1/folder_structure_parentDirectory.png)
+![Parent Folder Structure](/reveal/img/unit_1/folder_structure_parentDirectory.png)
 
 Note:
 
@@ -160,7 +160,7 @@ No transparency, can be stored at different compression levels with varying amou
 ---
 
 
-![GeneralAssemb.ly](../../img/icons/code_along.png)
+![GeneralAssemb.ly](/reveal/img/icons/code_along.png)
 ##About Me
 
 ---
@@ -176,7 +176,7 @@ If HTML is the house, the css is the decorations and styling. The paint
 
 ##CSS
 
-![](../../img/unit_1/css_syntax.png)
+![](/reveal/img/unit_1/css_syntax.png)
 
 ---
 
@@ -306,7 +306,7 @@ Discuss as a class
 
 Colors can be specified in CSS in a variety of ways:
 
-![](../../img/unit_1/color.png)
+![](/reveal/img/unit_1/color.png)
 
 Note:
 * keyword
@@ -330,7 +330,7 @@ See [here](http://www.crockford.com/wrrrld/color.html) for more:
 ##Color
 ###Hex Codes (RGB)
 
-![Hex Color explanation](../../img/unit_1/hex_colors.png)
+![Hex Color explanation](/reveal/img/unit_1/hex_colors.png)
 
 Note:
 "Hex" values are so-called because they use hexadecimal, or base-16, to describe the color values for red, green, and blue. Each of the 3 color values is expressed by two hexadecimal digits, from `00` (no color) to `FF` (full color), and are written in the order red, green, then blue, after an initial `#` sign.
@@ -367,7 +367,7 @@ White-space is allowed *inside* the parentheses, so `rgb(255, 0, 0)` will do jus
 *	This is a value between 0 and 1 which will be used to determine a color's opacity on the page,
 
 
-![](../../img/unit_1/rgba_color.png)
+![](/reveal/img/unit_1/rgba_color.png)
 
 Note:
 0 is completely transparent, and 1 being solid. 0.5 or .5 is 50% opacity.
@@ -440,7 +440,7 @@ http://google.com/fonts
 ---
 
 
-![GeneralAssemb.ly](../../img/icons/Exercise_icon_md.png)
+![GeneralAssemb.ly](/reveal/img/icons/Exercise_icon_md.png)
 ##Lab Time
 *	Wendy G. Bites - Resume.
 
