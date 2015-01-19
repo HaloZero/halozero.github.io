@@ -1,7 +1,13 @@
 require 'json'
 
 file_name = ARGV.shift
-file = File.open(file_name)
+begin
+  file = File.open(file_name)
+rescue
+  p "No File found #{file_name}"
+  exit
+end
+
 slide_text = file.read()
 
 
