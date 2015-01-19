@@ -1,4 +1,5 @@
 %ul.days
   - directories.each do |directory|
     - link_title = "Day #{directory.match('\d+')[0]}"
-    %li{href: "#{directory}/index.html"}=link_title
+    %li
+      %a{href: "#{directory}/index.html"}=link_title
