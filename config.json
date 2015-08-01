@@ -1,9 +1,0 @@
-{
-  "directories" : {
-    "images": "/reveal/img",
-    "css": "/reveal/css",
-    "js": "/reveal/js",
-    "lib": "/reveal/lib",
-    "plugin": "/reveal/plugin"
-  }
-}
